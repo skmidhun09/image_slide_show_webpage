@@ -1,4 +1,4 @@
-This adaptive web code displays all the images in the folder images as slide show in the web pages using javascript
+This adaptive web code displays all the "images" in the folder images as slide show in the web pages using javascript
  
 To run run the web-page
 
