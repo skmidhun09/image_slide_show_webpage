@@ -1,0 +1,31 @@
+/* Set the height and width of the container */
+.image-container {
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* Set the background of the container to each image in the folder */
+#myDiv0 {
+	background-image: url("css/image1.jpg");
+	animation: slideshow4 40s infinite;
+}
+#myDiv1 {
+	background-image: url("css/image2.jpg");
+	animation: slideshow3 40s infinite;
+}
+#myDiv2 {
+	background-image: url("css/image3.jpg");
+	animation: slideshow2 40s infinite;
+}
+#myDiv3 {
+	background-image: url("css/image4.jpg");
+	animation: slideshow1 40s infinite;
+}
+
+/* Animate the slideshow by changing the background every 10 seconds */
